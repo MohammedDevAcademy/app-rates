@@ -1,13 +1,8 @@
 <template>
   <div id="app">
     <div class="container mt-3">
-      <h1 class="display-4 text-center m-0">myRates</h1>
       <br />
       <router-view :key="$route.fullPath"></router-view>
-      <hr />
-      <footer class="text-center text-muted width100">
-        <small>https://github.com/MohammedDeveloper | All Right Reserved</small>
-      </footer>
       <br />
     </div>
   </div>
@@ -87,7 +82,7 @@ textarea {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    width: 720px;
   }
 }
 </style>
